@@ -2,3 +2,7 @@ name = "simple-proxy"
 main = "./.output/server/index.mjs"
 workers_dev = true
 compatibility_date = "2022-09-10"
+
+[observability]
+enabled = true
+head_sampling_rate = 1 # optional. default = 1.
